@@ -11,14 +11,9 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import HotelIcon from '@mui/icons-material/Hotel';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
-import {DateCalendar} from '@mui/x-date-pickers/DateCalendar';
-import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
-import {AdapterDayjs} from '@mui/x-date-pickers/AdapterDayjs';
-import dayjs from 'dayjs';
 import 'dayjs/locale/vi';
-import {TimeClock} from "@mui/x-date-pickers";
 import {Fab} from "@mui/material";
-import SendIcon from '@mui/icons-material/';
+import SendIcon from '@mui/icons-material/Send';
 
 export const meta = () => {
     return [{title: "New Remix App"}];
