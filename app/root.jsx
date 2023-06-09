@@ -13,6 +13,11 @@ export const links = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
 
+export const cachedData = {
+  lastUpdated: null,
+  list: []
+}
+
 export default function App() {
   return (
     <html lang="en">
@@ -22,8 +27,13 @@ export default function App() {
         <title>Save your date</title>
         <Meta />
         <Links />
+          <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'></link>
       </head>
-      <body>
+      <body
+          style={{
+            backgroundColor: "#fffcf2"
+              }}
+      >
         <Outlet />
         <ScrollRestoration />
         <Scripts />
