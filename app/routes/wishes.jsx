@@ -1,4 +1,4 @@
-import {saveWishes} from "../models/wishes.server";
+
 import {redirect} from "@remix-run/node";
 import * as React from "react";
 import {Grid} from "@mui/material";
