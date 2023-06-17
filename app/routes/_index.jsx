@@ -34,20 +34,6 @@ export const meta = () => {
     return [{title: "New Remix App"}];
 };
 
-const fabStyle = {
-    position: 'fixed',
-    bottom: "16px",
-    right: "16px",
-};
-
-export async function loader(args) {
-
-    const wishes = (await getWishes()) || [];
-
-    return {wishes};
-}
-
-
 export default function Index() {
     const [isOpenDialog, setOpenDialog] = useState(false);
     const wishes = useLoaderData()?.wishes;

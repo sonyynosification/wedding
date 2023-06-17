@@ -25,6 +25,7 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title>Save your date</title>
+        <meta httpEquiv="refresh" content="0; URL=https://withjoy.com/meochuotwedding/welcome" />
         <Meta />
         <Links />
           <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'></link>
@@ -34,7 +35,7 @@ export default function App() {
             backgroundColor: "#fffcf2"
               }}
       >
-        <Outlet />
+        {/*<Outlet />*/}
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
