@@ -27,7 +27,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import Dialog from '@mui/material/Dialog';
 import {useRef, useState} from "react";
 import {Form, useLoaderData, useSubmit} from "@remix-run/react";
-import {getWishes, saveWishes} from "../models/wishes.server";
+
 import MenuIcon from '@mui/icons-material/Menu';
 
 export const meta = () => {
